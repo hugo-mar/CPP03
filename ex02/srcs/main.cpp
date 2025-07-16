@@ -6,11 +6,10 @@
 /*   By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 20:09:55 by hugo-mar          #+#    #+#             */
-/*   Updated: 2025/07/16 09:19:57 by hugo-mar         ###   ########.fr       */
+/*   Updated: 2025/07/16 21:42:24 by hugo-mar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ClapTrap.hpp"
 #include "ScavTrap.hpp"
 #include "FragTrap.hpp"
 
