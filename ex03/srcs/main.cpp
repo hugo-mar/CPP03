@@ -6,7 +6,7 @@
 /*   By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/15 20:09:55 by hugo-mar          #+#    #+#             */
-/*   Updated: 2025/07/16 16:04:33 by hugo-mar         ###   ########.fr       */
+/*   Updated: 2025/07/16 23:41:46 by hugo-mar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,6 +56,12 @@ int main() {
     d1.takeDamage(40);
     d1.beRepaired(20);
     d1.whoAmI();
+	d1.guardGate();
+	d1.highFivesGuys();
+	d1.ClapTrap::attack("Mr Robot with ClapTrap hand");
+	d1.ScavTrap::attack("Mr Robot with ScavTrap head");
+	d1.FragTrap::attack("Mr Robot with FragTrap weel");
+
 
 	std::cout << "\n--- End of main ---\n" << std::endl;
 	
