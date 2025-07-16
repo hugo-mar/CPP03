@@ -6,7 +6,7 @@
 /*   By: hugo-mar <hugo-mar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/16 11:04:02 by hugo-mar          #+#    #+#             */
-/*   Updated: 2025/07/16 21:41:58 by hugo-mar         ###   ########.fr       */
+/*   Updated: 2025/07/16 23:23:34 by hugo-mar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include "FragTrap.hpp"
 # include "ScavTrap.hpp"
 
-class DiamondTrap : public ScavTrap, public FragTrap {
+class DiamondTrap : public FragTrap, public ScavTrap {
 
 private:
 	std::string _name;
